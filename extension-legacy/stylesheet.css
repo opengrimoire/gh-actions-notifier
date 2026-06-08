@@ -1,0 +1,35 @@
+.gha-status-label {
+  margin-left: 6px;
+  font-weight: 600;
+}
+
+.gha-muted {
+  color: #9a9a9a;
+}
+
+.gha-log-preview {
+  font-family: monospace;
+  max-width: 680px;
+}
+
+.gha-header-row {
+  spacing: 8px;
+}
+
+.gha-header-label {
+  color: #9a9a9a;
+}
+
+.gha-header-button {
+  padding: 4px;
+  border-radius: 6px;
+}
+
+.gha-action-row {
+  spacing: 8px;
+}
+
+.gha-action-button {
+  padding: 6px 10px;
+  border-radius: 6px;
+}

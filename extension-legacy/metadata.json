@@ -1,0 +1,12 @@
+{
+  "uuid": "github-actions-notifier@opengrimoire.github.io",
+  "name": "GitHub Actions Notifier",
+  "description": "Shows selected GitHub Actions workflow runs in the panel, sends notifications for important run results, and can copy selected failed log excerpts to the clipboard.",
+  "settings-schema": "org.gnome.shell.extensions.github-actions-notifier",
+  "shell-version": [
+    "42",
+    "43",
+    "44"
+  ],
+  "url": "https://github.com/opengrimoire/gh-actions-notifier"
+}

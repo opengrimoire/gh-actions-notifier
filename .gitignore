@@ -1,0 +1,4 @@
+dist/
+node_modules/
+extension-modern/schemas/gschemas.compiled
+extension-legacy/schemas/gschemas.compiled
