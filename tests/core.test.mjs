@@ -43,7 +43,7 @@ test('normalizes workflow run payloads', () => {
     conclusion: 'failure',
     event: 'push',
     head_branch: 'dev',
-    actor: { login: 'victor' },
+    actor: { login: 'name' },
     repository: { full_name: 'opengrimoire/example' },
     html_url: 'https://github.com/opengrimoire/example/actions/runs/123',
     created_at: '2026-06-07T10:00:00Z',
