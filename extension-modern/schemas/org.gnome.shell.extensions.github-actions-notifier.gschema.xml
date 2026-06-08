@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.github-actions-notifier" path="/org/gnome/shell/extensions/github-actions-notifier/">
+    <key name="selected-repositories" type="as">
+      <default>[]</default>
+      <summary>Selected repositories</summary>
+      <description>Repository full names to monitor.</description>
+    </key>
+    <key name="has-token" type="b">
+      <default>false</default>
+      <summary>Token configured</summary>
+      <description>Whether the user has saved a GitHub token in GNOME Keyring. The token value itself is never stored in GSettings.</description>
+    </key>
+    <key name="active-poll-interval" type="u">
+      <default>60</default>
+      <range min="30" max="900"/>
+      <summary>Active polling interval</summary>
+      <description>Polling interval in seconds when at least one monitored workflow run is active.</description>
+    </key>
+    <key name="idle-poll-interval" type="u">
+      <default>300</default>
+      <range min="60" max="3600"/>
+      <summary>Idle polling interval</summary>
+      <description>Polling interval in seconds when no monitored workflow run is active.</description>
+    </key>
+    <key name="history-days" type="u">
+      <default>7</default>
+      <range min="1" max="30"/>
+      <summary>History retention</summary>
+      <description>Number of days to keep workflow run history locally.</description>
+    </key>
+    <key name="notify-failures" type="b">
+      <default>true</default>
+      <summary>Notify failures</summary>
+      <description>Whether to notify failed, cancelled, timed-out, and action-required workflow runs.</description>
+    </key>
+    <key name="notify-watched-success" type="b">
+      <default>true</default>
+      <summary>Notify watched successes</summary>
+      <description>Whether to notify successful completion for runs explicitly marked as watched.</description>
+    </key>
+    <key name="notify-all-completions" type="b">
+      <default>false</default>
+      <summary>Notify all completions</summary>
+      <description>Whether to notify every completed workflow run in selected repositories.</description>
+    </key>
+  </schema>
+</schemalist>
